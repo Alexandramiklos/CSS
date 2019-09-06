@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+}
+.wrapper {
+  background-color: blue;
+  border: 1px solid grey;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.one {
+  background-color: aqua;
+  border: 1px solid grey;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.two {
+  background-color: aquamarine;
+  border: 1px solid grey;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.three {
+  background-color: antiquewhite;
+  border: 1px solid grey;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.four {
+  background-color: aliceblue;
+  border: 1px solid grey;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.menu {
+  width: 600px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  flex-grow: 1;
+}
+.menu li a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #565656;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+.menu li a:hover {
+  background-color: #32cb8f;
+  color: white;
+}
